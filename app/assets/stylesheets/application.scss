@@ -69,12 +69,13 @@ body {
   text-transform: uppercase;
   color: white;
   margin: 0;
+  margin-bottom: 10px;
   a {
     text-decoration: none;
     color: white;
     transition: all 0.4s ease-in-out;
     &:hover {
-      opacity: 0.4;
+      color: $dark;
     }
   }
 }
@@ -174,6 +175,10 @@ body {
   color: white;
   a {
     color: white;
+  }
+
+  a:hover {
+    color: $dark;
   }
 }
 
